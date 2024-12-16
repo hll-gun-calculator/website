@@ -4,6 +4,7 @@ import VersionListWidget from '@site/src/components/VersionListWidget';
 import VersionHistoryListWidget from '@site/src/components/VersionHistoryListWidget';
 import DownloadTableWidget from '@site/src/components/DownloadTableWidget';
 import CalcRecommendedList from "@site/src/components/CalcRecommendedListWidget";
+import MapRecommendedListWidget from "@site/src/components/MapRecommendedListWidget";
 
 export default {
     ...MDXComponents,
@@ -11,4 +12,5 @@ export default {
     VersionHistoryListWidget,
     DownloadTableWidget,
     CalcRecommendedList,
+    MapRecommendedListWidget,
 };

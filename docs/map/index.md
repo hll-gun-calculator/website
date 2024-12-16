@@ -2,7 +2,7 @@
 title: 地图合集
 layout: default
 has_children: true
-nav_order: 4
+sidebar_position: 4
 ---
 
 # 地图合集

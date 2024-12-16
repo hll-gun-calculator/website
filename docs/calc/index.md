@@ -2,7 +2,7 @@
 title: 计算函数
 layout: default
 has_children: true
-nav_order: 3
+sidebar_position: 3
 ---
 
 # 计算函数

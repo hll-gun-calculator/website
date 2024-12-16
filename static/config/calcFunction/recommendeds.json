@@ -10,6 +10,10 @@
         {
           "name": "HLL gun calc Community",
           "path": "https://hll-gun-calc.app-document.cabbagelol.net/config/calcFunction/example.json"
+        },
+        {
+          "name": "HLL gun calc Community-2",
+          "path": "https://hll-gun-calc.website.cabbagelol.net/config/calcFunction/example.json"
         }
       ]
     },

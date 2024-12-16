@@ -1,13 +1,13 @@
 import React from 'react';
 import Link from "@docusaurus/Link";
 
-export default function CalcRecommendedList() {
+export default function MapRecommendedListWidget() {
     let list = [];
 
-    getCalcRecommended();
+    getMapRecommended();
 
-    function getCalcRecommended() {
-        let result = require("/config/calcFunction/recommendeds.json");
+    function getMapRecommended() {
+        let result = require("/config/map/recommendeds.json");
 
         list = result.child;
     }

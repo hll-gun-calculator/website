@@ -9,7 +9,11 @@
       "updataFunction": [
         {
           "name": "HLL gun calc Community",
-          "path": "https://hll-gun-calc.app-document.cabbagelol.net/document/main/config/map/example.json"
+          "path": "https://hll-gun-calc.app-document.cabbagelol.net/config/map/example.json"
+        },
+        {
+          "name": "HLL gun calc Community-2",
+          "path": "https://hll-gun-calc.website.cabbagelol.net/config/map/example.json"
         }
       ]
     },
