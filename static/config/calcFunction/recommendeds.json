@@ -1,0 +1,30 @@
+{
+  "child": [
+    {
+      "name": "example-calc",
+      "description": {
+        "zh_CN": "示例配置",
+        "en_US": "example config"
+      },
+      "updataFunction": [
+        {
+          "name": "HLL gun calc Community",
+          "path": "https://hll-gun-calc.app-document.cabbagelol.net/config/calcFunction/example.json"
+        }
+      ]
+    },
+    {
+      "name": "easyarty-calc",
+      "description": {
+        "zh_CN": "arty配置",
+        "en_US": "arty config"
+      },
+      "updataFunction": [
+        {
+          "name": "HLL gun calc Community",
+          "path": "https://hll-gun-calc.app-document.cabbagelol.net/config/calcFunction/easyarty.json"
+        }
+      ]
+    }
+  ]
+}
