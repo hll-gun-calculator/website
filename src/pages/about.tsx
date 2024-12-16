@@ -10,7 +10,7 @@ export default function About(): JSX.Element {
             <main className="home-page-background">
                 <div className="container pt-5 pb-5">
                     <div className="">
-                        <div className="mb-5" style={{marginTop: '300px'}}>
+                        <div className="mb-5" style={{marginTop: '50px'}}>
                             <h1>关于</h1>
 
                             <p>这个应用程序遵循MIT开源协议，程序不隶属于人间地狱，Team17集团。</p>

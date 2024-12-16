@@ -90,13 +90,15 @@ const config: Config = {
                     position: 'right',
                 },
                 {
-                    label: '其他',
                     position: 'right',
                     items: [
                         {
-                            href: '/https://github.com/hll-gun-calculator',
-                            label: '关于',
-                            position: 'right',
+                            href: '/docs/privacy',
+                            label: '隐私条款',
+                        },
+                        {
+                            href: '/docs/version',
+                            label: '版本',
                         },
                     ]
                 }
