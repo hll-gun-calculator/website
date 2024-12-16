@@ -81,7 +81,7 @@ const config: Config = {
                 {
                     type: 'docSidebar',
                     sidebarId: 'tutorialSidebar',
-                    position: 'right',
+                    position: 'left',
                     label: '文档',
                 },
                 {
@@ -99,6 +99,14 @@ const config: Config = {
                         {
                             href: '/docs/version',
                             label: '版本',
+                        },
+                        {
+                            href: 'https://github.com/hll-gun-calculator',
+                            label: 'Github仓库',
+                        },
+                        {
+                            href: 'https://github.com/hll-gun-calculator/hll-gun-calculato-app/issues',
+                            label: '在Github issues寻求帮助',
                         },
                     ]
                 }

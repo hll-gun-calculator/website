@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import DownloadTableWidget from "@site/src/components/DownloadTableWidget";
+import AppWidget from "@site/src/components/AppWidget";
 
 export default function Home(): JSX.Element {
     const u = useDocusaurusContext();
@@ -26,7 +27,7 @@ export default function Home(): JSX.Element {
                                     </Link>
 
                                     <Link type="button" className="btn btn-dark"
-                                          to="https://hll-gun-calculato-app-for-web.vercel.app" target="_new">
+                                          to="https://hll-gun-calc.app-web.cabbagelol.net" target="_new">
                                         打开单独网页
                                         <i className="bi bi-box-arrow-in-up-right"></i>
                                     </Link>
@@ -38,15 +39,7 @@ export default function Home(): JSX.Element {
                             </div>
                         </div>
                         <div className="col-sm-12 col-lg-5">
-                            <div className="rounded-lg-4">
-                                <div className="modal-body h-100 rounded-3 border shadow">
-                                    <iframe className="d-block rounded-3 h-100"
-                                            style={{minHeight: '700px'}}
-                                            src="https://hll-gun-calculato-app-for-web.vercel.app/" height="100%"
-                                            width="100%"></iframe>
-                                </div>
-                                <p className="m-3 opacity-25 text-wrap fs-6">此处仅用作展示，使用可点击'单独页面'打开，如果需要安装本地，可以点击游览器地址栏的安装按钮</p>
-                            </div>
+                           <AppWidget/>
                         </div>
                     </div>
                 </div>

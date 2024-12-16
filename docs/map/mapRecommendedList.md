@@ -1,12 +1,11 @@
 ---
-title: 地图合集社区列表
+title: ⭐️ 地图合集社区列表
 layout: default
 parent: 地图合集
+sidebar_position: 1
 ---
 
 # 地图合集(第三方)
-
-地图
 
 由社区提供地方合集配置
 

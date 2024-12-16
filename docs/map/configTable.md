@@ -1,7 +1,8 @@
 ---
-title: 地图配置表
+title: 地图配置表(开发)
 layout: default
 parent: 地图合集
+tags: [Dev]
 ---
 
 # 配置地图合集
