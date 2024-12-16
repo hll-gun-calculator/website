@@ -10,16 +10,11 @@ const config: Config = {
     url: 'https://hll-gun-calc.app-document.cabbagelol.net',
     baseUrl: '/',
 
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'facebook',
+    projectName: 'docusaurus',
 
     onBrokenLinks: 'ignore',
-    onBrokenMarkdownLinks: 'warn',
-
-    // i18n: {
-    //     defaultLocale: 'zh',
-    //     locales: ['zh'],
-    // },
+    onBrokenMarkdownLinks: 'ignore',
 
     stylesheets: [
         {
@@ -71,7 +66,8 @@ const config: Config = {
             respectPrefersColorScheme: false,
         },
         navbar: {
-            title: 'HLL Gun Calc',
+            title: 'HLLGunCalc',
+            hideOnScroll: true,
             logo: {
                 alt: 'logo',
                 src: 'images/logo.png',

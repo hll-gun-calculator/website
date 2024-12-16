@@ -5,7 +5,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import DownloadTableWidget from "@site/src/components/DownloadTableWidget";
 import AppWidget from "@site/src/components/AppWidget";
-
 export default function Home(): JSX.Element {
     const u = useDocusaurusContext();
 
