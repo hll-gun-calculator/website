@@ -27,7 +27,7 @@ export default function AppWidget() {
                 <div className="modal-body h-100 rounded-3 border shadow">
                     <iframe className="d-block rounded-3 h-100"
                             style={{minHeight: '700px'}}
-                            src="https://hll-gun-calc.app-web.cabbagelol.net" height="100%"
+                            src="https://hll-gun-calc.app-web.cabbagelol.net/" height="100%"
                             width="100%"></iframe>
                 </div>
                 <div className="m-3 opacity-25 text-wrap">

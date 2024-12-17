@@ -26,7 +26,7 @@ export default function Home(): JSX.Element {
                                     </Link>
 
                                     <Link type="button" className="btn btn-dark"
-                                          to="https://hll-gun-calc.app-web.cabbagelol.net" target="_new">
+                                          to="https://hll-gun-calc.app-web.cabbagelol.net/" target="_new">
                                         打开单独网页
                                         <i className="bi bi-box-arrow-in-up-right"></i>
                                     </Link>

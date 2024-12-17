@@ -7,7 +7,7 @@ export default function AppOlVersionWidget() {
 
     async function getVersion() {
         let time = Date.now();
-        let result = await fetch(`https://hll-gun-calc.app-web.cabbagelol.net/version.json?cachebuster=${time}`).then(r => r.json());
+        let result = await fetch(`https://hll-gun-calc.app-web.cabbagelol.net//version.json?cachebuster=${time}`).then(r => r.json());
         return setData(result)
     }
 
