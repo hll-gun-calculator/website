@@ -1,4 +1,6 @@
 import React from 'react';
+import AppOlVersionWidget from "@site/src/components/AppOlWidget";
+import Link from "@docusaurus/Link";
 
 /// md
 // | 平台      | 描述       | 正式                                                                                      | 测试                                                                               |
@@ -39,7 +41,7 @@ export default function DownloadTableWidget() {
             </tr>
             <tr>
                 <td>Web</td>
-                <td>web</td>
+                <td>web (<Link to="/docs/version"><AppOlVersionWidget/></Link>)</td>
                 <td><a href="https://hll-gun-calc.app-web.cabbagelol.net" target="_blank"
                        rel="noopener noreferrer">访问</a></td>
                 <td><a href="https://hll-gun-calculato-app-for-7r8gfh9j7.vercel.app"
