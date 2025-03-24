@@ -1,0 +1,40 @@
+{
+  "name": "quick-dictation",
+  "version": "0.0.1",
+  "author": "quick-dictation",
+  "website": "none",
+  "child": {
+    "UnitedStates": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "reduction": 0.05
+      },
+      "fun": "90 - {inputValue} * {reduction}"
+    },
+    "Germany": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "reduction": 0.045
+      },
+      "fun": "90 - {inputValue} * {reduction}"
+    },
+    "TheSovietUnion": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "reduction": 0.07
+      },
+      "fun": "90 - {inputValue} * {reduction}"
+    },
+    "GreatBritain": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "reduction": 0.035
+      },
+      "fun": "90 - {inputValue} * {reduction}"
+    }
+  }
+}

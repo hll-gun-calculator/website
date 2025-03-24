@@ -42,6 +42,19 @@
           "path": "https://hll-gun-calc.app-document.cabbagelol.net/config/calcFunction/easyarty.json"
         }
       ]
+    },
+    {
+      "name": "quick-dictation",
+      "description": {
+        "zh_CN": "快速口算",
+        "en_US": "Quick Dictation"
+      },
+      "updataFunction": [
+        {
+          "name": "BAIDU Tiebai Community",
+          "path": "https://hll-gun-calc.app-document.cabbagelol.net/config/calcFunction/quick-dictation.json"
+        }
+      ]
     }
   ]
 }
