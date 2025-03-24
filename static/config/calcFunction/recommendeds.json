@@ -18,6 +18,19 @@
       ]
     },
     {
+      "name": "lordash-calc",
+      "description": {
+        "zh_CN": "lordash",
+        "en_US": "lordash"
+      },
+      "updataFunction": [
+        {
+          "name": "lordash",
+          "path": "https://hll-gun-calc.app-document.cabbagelol.net/config/calcFunction/lordash.json"
+        }
+      ]
+    },
+    {
       "name": "easyarty-calc",
       "description": {
         "zh_CN": "arty配置",

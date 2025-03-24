@@ -1,0 +1,48 @@
+{
+  "name": "lordash-calc",
+  "version": "0.0.1",
+  "author": "lordash",
+  "website": "https://blog.lordash.de/f/tools/hell-let-loose-mil/",
+  "child": {
+    "UnitedStates": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "maximumAngle": 978,
+        "maximumRange": 1600,
+        "minimumAngle": 622
+      },
+      "fun": "{maximumAngle}-({inputValue}-100)/({maximumRange}-100)*({maximumAngle}-{minimumAngle})"
+    },
+    "Germany": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "maximumAngle": 978,
+        "maximumRange": 1600,
+        "minimumAngle": 622
+      },
+      "fun": "{maximumAngle}-({inputValue}-100)/({maximumRange}-100)*({maximumAngle}-{minimumAngle})"
+    },
+    "TheSovietUnion": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "maximumAngle": 1120,
+        "maximumRange": 1600,
+        "minimumAngle": 800
+      },
+      "fun": "{maximumAngle}-({inputValue}-100)/({maximumRange}-100)*({maximumAngle}-{minimumAngle})"
+    },
+    "GreatBritain": {
+      "maximumRange": 1600,
+      "minimumRange": 100,
+      "envs": {
+        "maximumAngle": 533,
+        "maximumRange": 1600,
+        "minimumAngle": 267
+      },
+      "fun": "{maximumAngle}-({inputValue}-100)/({maximumRange}-100)*({maximumAngle}-{minimumAngle})"
+    }
+  }
+}
